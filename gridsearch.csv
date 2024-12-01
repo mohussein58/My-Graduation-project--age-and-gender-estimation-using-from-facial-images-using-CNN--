@@ -1,0 +1,60 @@
+category,architecture,dataset(s),input image size,crop/alignment,optimiser,learning rate,initial weights,results,epochs
+gender,VGG-16,"A, I, W, U",168x168,face only,Adam,0.0001,untrained,81.88%,14
+gender,AlexNet,"A, I, W, U",168x168,face only,Adam,0.0001,untrained,80.85%,12
+gender,AlexNet,"A, I, W, U",168x168,face only,SGD,0.1,untrained,80.03%,9
+gender,AlexNet,"A, I, W, U",168x168,face only,SGD,0.01,untrained,80.00%,20
+gender,VGG-16,"A, I, W, U",168x168,face only,SGD,0.01,untrained,80.00%,15
+gender,VGG-16,"A, I, W, U",168x168,face only,SGD,0.1,untrained,79.95%,8
+gender,AlexNet,"A, I, W, U",168x168,face only,Adam,0.0005,untrained,77.90%,9
+gender,AlexNet,"A, I, W, U",168x168,face only,Adam,0.001,untrained,58.38%,6
+gender,VGG-16,"A, I, W, U",168x168,face only,Adam,0.001,untrained,58.38%,5
+gender,VGG-16,"A, I, W, U",168x168,face only,Adam,0.0005,untrained,58.38%,6
+gender,VGG16,"A, I, W, U",224x224,face only,sgd,0.005,pretraiNED,83.33%,14
+gender,VGG16,"A, I, W, U",224x224,face only,SGD,0.01,PRETRAINED,82.75%,9
+gender,VGG16,"A, I, W, U",224x224,face only,sgd,0.001,pretraiNED,81.27%,17
+gender,AlexNet,"A, I, W, U",224x224,face only,SGD,0.01,PRETRAINED,80.75%,10
+gender,AlexNet,"A, I, W, U",224x224,face only,Adam,0.0001,untrained,80.23%,11
+gender,alexnet,"A, I, W, U",224x224,face only,sgd,0.005,pretraiNED,80.17%,9
+gender,VGG16,"A, I, W, U",224x224,face only,Adam,0.0001,untrained,79.83%,9
+gender,alexnet,"A, I, W, U",224x224,face only,sgd,0.001,pretraiNED,79.40%,11
+gender,vgg16,"A, I, W, U",224x224,face only,shd,0.01,untrained,79.28%,14
+gender,AlexNet,"A, I, W, U",224x224,face only,Adam,0.0005,untrained,78.85%,15
+gender,alexnet,"A, I, W, U",224x224,face only,SGD,0.01,untrained,78.55%,15
+gender,VGG16,"A, I, W, U",224x224,face only,Adam,0.0005,untrained,77.90%,
+gender,AlexNet,"A, I, W, U",224x224,face only,Adam,0.0005,PRETRAINED,59.40%,8
+gender,VGG16,"A, I, W, U",224x224,face only,Adam,0.0005,PRETRAINED,59.40%,11
+gender,LeNet,"A, I, W, U",28x28,face only,Adam,0.001,untrained,77.60%,16
+gender,LeNet,"A, I, W, U",28x28,face only,Adam,0.0005,untrained,77.45%,16
+gender,AlexNet,"A, I, W, U",28x28,face only,Adam,0.0001,untrained,76.00%,27
+gender,VGG-16,"A, I, W, U",84x84,face only,Adam,0.0001,untrained,81.33%,12
+gender,AlexNet,"A, I, W, U",84x84,face only,Adam,0.0001,untrained,80.08%,9
+gender,AlexNet,"A, I, W, U",84x84,face only,Adam,0.0005,untrained,78.95%,12
+gender,LeNet,"A, I, W, U",84x84,face only,Adam,0.0001,untrained,77.58%,14
+gender,LeNet,"A, I, W, U",84x84,face only,Adam,0.001,untrained,76.85%,6
+gender,LeNet,"A, I, W, U",84x84,face only,Adam,0.0005,untrained,76.72%,6
+gender,AlexNet,"A, I, W, U",84x84,face only,Adam,0.001,untrained,75.38%,9
+gender,VGG-16,"A, I, W, U",84x84,face only,Adam,0.001,untrained,58.77%,4
+gender,VGG-16,"A, I, W, U",84x84,face only,Adam,0.0005,untrained,58.77%,7
+gender,AlexNet,I,224x224,face only,Adam,0.0005,untrained,75.65%,11
+gender,AlexNet,U,224x224,face only,Adam,0.0005,untrained,72.97%,8
+gender,AlexNet,A,224x224,face only,Adam,0.0005,untrained,72.55%,21
+gender,AlexNet,W,224x224,face only,Adam,0.0005,untrained,66.00%,6
+age (mixed),alexnet,"I, W, U",224x224,face only,Adam,0.0001,untrained,8.16,15
+age (mixed),vgg16,"I, W, U",224x224,whole head,Adam,0.0001,untrained,8.27,
+age (mixed),alexnet,W,224x224,face only,Adam,0.0005,untrained,8.33,
+age (mixed),alexnet,"I, W, U",168x168,face only,Adam,0.0001,untrained,8.44,19
+age (mixed),alexnet,"I, W, U",224x224,whole head,Adam,0.0001,untrained,8.46,
+age (male),alexnet,"I, W, U",224x224,whole head,Adam,0.0001,untrained,8.64,
+female only,alexnet,I W U,224x224,whole head,adam,0.0001,untrained,8.51,
+age (mixed),alexnet,U,224x224,face only,Adam,0.0005,untrained,8.76,
+age (mixed),alexnet,I,224x224,face only,Adam,0.0005,untrained,9.16,
+age (mixed),vgg16,"I, W, U",224x224,face only,Adam,0.0001,untrained,10.05,18
+age (mixed),vgg16,"I, W, U",224x224,face only,sgd,0.005,pretraiNED,10.17,
+age (mixed),lenet,"I, W, U",84x84,face only,Adam,0.0001,untrained,10.19,14
+age (mixed),le net,"I, W, U",28x28,face only,Adam,0.0001,untrained,11.33,30
+age (mixed),alexnet,I W U,224x224,face only,sgd,0.005,pretrained,11.39,50 (patience 10)
+age (mixed),alexnet,"I, W, U",84x84,face only,Adam,0.0001,untrained,11.50,15
+age (mixed),vgg16,"I, W, U",224x224,whole head,sgd,0.005,pretraiNED,12.03,
+age (mixed),alexnet,"I, W, U",224x224,whole head,sgd,0.005,pretraiNED,13.30,
+age (mixed),alexnet,I W U,224x224,face only,sgd,0.0005,pretrained,14.12,50 (patience 10)
+age (mixed),alexnet,I W U,224x224,whole head,sgd,0.005,retrained,15.10,

@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This repository contains the source code and runnable GUI for a CNN-based facial feature extractor, which predicts the gender and age of subjects from images or live video. This project was undertaken as my chosen Final Year Project (22COZ250) at Loughborough University.
+This repository contains the source code and runnable GUI for a CNN-based facial feature extractor, which predicts the gender and age of subjects from images or live video. This project was undertaken as my chosen Final Year and graduation Project at University.
 
 For more details on the project's development, as well as an in-depth review of the current state of automatic facial feature classifiers, see the `report.pdf`.
 
